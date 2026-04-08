@@ -98,7 +98,6 @@
 </style>
 </head>
 <body>
-
 <nav>
   <div class="nav-logo">
     Stalario
@@ -110,7 +109,6 @@
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
-
 <div class="hero">
   <div class="hero-bg"></div>
   <div class="hero-grid"></div>
@@ -124,7 +122,6 @@
     </div>
   </div>
 </div>
-
 <div class="stats-bar">
   <div class="stat">
     <div class="stat-number">1,200+</div>
@@ -143,7 +140,6 @@
     <div class="stat-label">Report delivery</div>
   </div>
 </div>
-
 <section id="how">
   <span class="section-eyebrow">Our process</span>
   <div class="how-layout">
@@ -176,33 +172,86 @@
       </div>
     </div>
     <div class="visual-card">
-      <svg class="pitch-visual" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
-        <rect x="20" y="20" width="260" height="260" fill="none" stroke="rgba(212,180,131,0.2)" stroke-width="1"/>
-        <circle cx="150" cy="150" r="40" fill="none" stroke="rgba(212,180,131,0.2)" stroke-width="1"/>
-        <circle cx="150" cy="150" r="2" fill="rgba(212,180,131,0.4)"/>
-        <line x1="20" y1="150" x2="280" y2="150" stroke="rgba(212,180,131,0.2)" stroke-width="1"/>
-        <rect x="90" y="20" width="120" height="55" fill="none" stroke="rgba(212,180,131,0.2)" stroke-width="1"/>
-        <rect x="90" y="225" width="120" height="55" fill="none" stroke="rgba(212,180,131,0.2)" stroke-width="1"/>
-        <rect x="118" y="20" width="64" height="24" fill="none" stroke="rgba(212,180,131,0.15)" stroke-width="1"/>
-        <rect x="118" y="256" width="64" height="24" fill="none" stroke="rgba(212,180,131,0.15)" stroke-width="1"/>
-        <circle cx="150" cy="60" r="6" fill="var(--gold)" opacity="0.9"/>
-        <circle cx="110" cy="100" r="6" fill="var(--gold)" opacity="0.7"/>
-        <circle cx="190" cy="100" r="6" fill="var(--gold)" opacity="0.7"/>
-        <circle cx="80" cy="150" r="6" fill="var(--gold)" opacity="0.6"/>
-        <circle cx="150" cy="150" r="6" fill="var(--gold)" opacity="0.6"/>
-        <circle cx="220" cy="150" r="6" fill="var(--gold)" opacity="0.6"/>
-        <circle cx="110" cy="200" r="6" fill="rgba(212,180,131,0.4)"/>
-        <circle cx="190" cy="200" r="6" fill="rgba(212,180,131,0.4)"/>
-        <circle cx="150" cy="240" r="6" fill="rgba(212,180,131,0.4)"/>
-        <circle cx="150" cy="60" r="12" fill="none" stroke="var(--gold)" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.8">
-          <animateTransform attributeName="transform" type="rotate" from="0 150 60" to="360 150 60" dur="8s" repeatCount="indefinite"/>
+      <svg class="pitch-visual" viewBox="0 0 300 315" xmlns="http://www.w3.org/2000/svg">
+
+        <!-- Formation label -->
+        <text x="150" y="14" font-family="Montserrat" font-size="10" font-weight="500" fill="rgba(212,180,131,0.6)" text-anchor="middle" letter-spacing="4">4 — 3 — 3</text>
+
+        <!-- ===== PITCH ===== -->
+        <rect x="20" y="20" width="260" height="290" fill="none" stroke="rgba(212,180,131,0.2)" stroke-width="1"/>
+        <!-- Top penalty box -->
+        <rect x="88" y="20" width="124" height="62" fill="none" stroke="rgba(212,180,131,0.18)" stroke-width="1"/>
+        <!-- Top 6-yard box -->
+        <rect x="116" y="20" width="68" height="24" fill="none" stroke="rgba(212,180,131,0.1)" stroke-width="1"/>
+        <!-- Centre circle -->
+        <circle cx="150" cy="165" r="38" fill="none" stroke="rgba(212,180,131,0.18)" stroke-width="1"/>
+        <circle cx="150" cy="165" r="2" fill="rgba(212,180,131,0.3)"/>
+        <!-- Halfway line -->
+        <line x1="20" y1="165" x2="280" y2="165" stroke="rgba(212,180,131,0.18)" stroke-width="1"/>
+        <!-- Bottom penalty box -->
+        <rect x="88" y="248" width="124" height="62" fill="none" stroke="rgba(212,180,131,0.18)" stroke-width="1"/>
+        <!-- Bottom 6-yard box -->
+        <rect x="116" y="286" width="68" height="24" fill="none" stroke="rgba(212,180,131,0.1)" stroke-width="1"/>
+
+        <!-- ===== PLAYERS — 4-3-3 ===== -->
+        <!-- Player style: filled circle + number. Opacity fades from attack (bright) to defense -->
+
+        <!-- ROW 1 — FORWARDS (y=72) -->
+        <!-- #10 Left Wing — spread wide -->
+        <circle cx="62" cy="72" r="12" fill="rgba(212,180,131,0.18)" stroke="var(--gold)" stroke-width="1.5"/>
+        <text x="62" y="77" font-family="Montserrat" font-size="9" font-weight="500" fill="var(--gold)" text-anchor="middle">10</text>
+
+        <!-- #9 Centre Forward — highlighted FIT 94% -->
+        <circle cx="150" cy="58" r="12" fill="rgba(212,180,131,0.28)" stroke="var(--gold)" stroke-width="1.8"/>
+        <text x="150" y="63" font-family="Montserrat" font-size="9" font-weight="500" fill="var(--gold)" text-anchor="middle">9</text>
+        <circle cx="150" cy="58" r="19" fill="none" stroke="var(--gold)" stroke-width="1.2" stroke-dasharray="4 3" opacity="0.75">
+          <animateTransform attributeName="transform" type="rotate" from="0 150 58" to="360 150 58" dur="8s" repeatCount="indefinite"/>
         </circle>
-        <text x="165" y="55" font-family="Montserrat" font-size="9" fill="var(--gold)" opacity="0.9">FIT 94%</text>
+        <text x="172" y="46" font-family="Montserrat" font-size="7.5" fill="var(--gold)" opacity="0.85">FIT 94%</text>
+
+        <!-- #11 Right Wing — spread wide -->
+        <circle cx="238" cy="72" r="12" fill="rgba(212,180,131,0.18)" stroke="var(--gold)" stroke-width="1.5"/>
+        <text x="238" y="77" font-family="Montserrat" font-size="9" font-weight="500" fill="var(--gold)" text-anchor="middle">11</text>
+
+        <!-- ROW 2 — MIDFIELDERS -->
+        <!-- #8 Left CM -->
+        <circle cx="88" cy="152" r="12" fill="rgba(212,180,131,0.12)" stroke="rgba(212,180,131,0.75)" stroke-width="1.5"/>
+        <text x="88" y="157" font-family="Montserrat" font-size="9" font-weight="500" fill="var(--gold)" text-anchor="middle">8</text>
+
+        <!-- #6 Centre CM — dropped slightly lower (holding mid) -->
+        <circle cx="150" cy="163" r="12" fill="rgba(212,180,131,0.12)" stroke="rgba(212,180,131,0.75)" stroke-width="1.5"/>
+        <text x="150" y="168" font-family="Montserrat" font-size="9" font-weight="500" fill="var(--gold)" text-anchor="middle">6</text>
+
+        <!-- #7 Right CM -->
+        <circle cx="212" cy="152" r="12" fill="rgba(212,180,131,0.12)" stroke="rgba(212,180,131,0.75)" stroke-width="1.5"/>
+        <text x="212" y="157" font-family="Montserrat" font-size="9" font-weight="500" fill="var(--gold)" text-anchor="middle">7</text>
+
+        <!-- ROW 3 — DEFENDERS (y=232) -->
+        <!-- #3 Left Back -->
+        <circle cx="58" cy="232" r="12" fill="rgba(212,180,131,0.08)" stroke="rgba(212,180,131,0.55)" stroke-width="1.5"/>
+        <text x="58" y="237" font-family="Montserrat" font-size="9" font-weight="500" fill="rgba(212,180,131,0.85)" text-anchor="middle">3</text>
+
+        <!-- #5 Centre Back Left -->
+        <circle cx="116" cy="232" r="12" fill="rgba(212,180,131,0.08)" stroke="rgba(212,180,131,0.55)" stroke-width="1.5"/>
+        <text x="116" y="237" font-family="Montserrat" font-size="9" font-weight="500" fill="rgba(212,180,131,0.85)" text-anchor="middle">5</text>
+
+        <!-- #4 Centre Back Right -->
+        <circle cx="184" cy="232" r="12" fill="rgba(212,180,131,0.08)" stroke="rgba(212,180,131,0.55)" stroke-width="1.5"/>
+        <text x="184" y="237" font-family="Montserrat" font-size="9" font-weight="500" fill="rgba(212,180,131,0.85)" text-anchor="middle">4</text>
+
+        <!-- #2 Right Back -->
+        <circle cx="242" cy="232" r="12" fill="rgba(212,180,131,0.08)" stroke="rgba(212,180,131,0.55)" stroke-width="1.5"/>
+        <text x="242" y="237" font-family="Montserrat" font-size="9" font-weight="500" fill="rgba(212,180,131,0.85)" text-anchor="middle">2</text>
+
+        <!-- ROW 4 — GOALKEEPER (y=286) -->
+        <!-- #1 GK -->
+        <circle cx="150" cy="286" r="12" fill="rgba(212,180,131,0.05)" stroke="rgba(212,180,131,0.35)" stroke-width="1.5"/>
+        <text x="150" y="291" font-family="Montserrat" font-size="9" font-weight="500" fill="rgba(212,180,131,0.6)" text-anchor="middle">1</text>
+
       </svg>
     </div>
   </div>
 </section>
-
 <div class="full-width" id="about">
   <div>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:6rem;align-items:center;max-width:1200px;margin:0 auto;">
@@ -238,7 +287,6 @@
     </div>
   </div>
 </div>
-
 <section id="contact">
   <div class="contact-wrapper">
     <span class="section-eyebrow" style="display:block;text-align:center;">Get in touch</span>
@@ -291,7 +339,6 @@
     </div>
   </div>
 </section>
-
 <footer>
   <div class="footer-logo">
     Stalario
@@ -299,7 +346,6 @@
   </div>
   <div class="footer-copy">© 2025 Stalario. All rights reserved.</div>
 </footer>
-
 <script>
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry, i) => {
@@ -309,7 +355,6 @@
     });
   }, { threshold: 0.2 });
   document.querySelectorAll('.step').forEach(el => observer.observe(el));
-
   const revealObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -324,25 +369,20 @@
     el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
     revealObserver.observe(el);
   });
-
   const form = document.getElementById('contactForm');
   const submitBtn = document.getElementById('submitBtn');
   const formSuccess = document.getElementById('formSuccess');
-
   form.addEventListener('submit', async function(e) {
     e.preventDefault();
     submitBtn.textContent = 'Sending...';
     submitBtn.disabled = true;
-
     const data = new FormData(form);
-
     try {
       const response = await fetch('https://formspree.io/f/mgongegv', {
         method: 'POST',
         body: data,
         headers: { 'Accept': 'application/json' }
       });
-
       if (response.ok) {
         form.style.display = 'none';
         formSuccess.style.display = 'block';
